@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.dashboard-header {
+  background-color: #002f6c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.bank-logo {
+  height: 30px;
+}
+
+.balance-card {
+  background-color: #7AC143;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 1rem;
+  text-align: left;
+}
+
+.balance-card .label {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.balance-card .balance {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.user-info {
+  margin: 1rem;
+  font-size: 0.9rem;
+  color: #002f6c;
+}
+
+.user-info .account-number {
+  font-weight: bold;
+}
+
+.user-info .status {
+  color: green;
+}
+
+.ledger-bar {
+  background-color: #ccc;
+  color: #333;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.service-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.service {
+  width: 80px;
+  text-align: center;
+  color: #002f6c;
+  font-size: 0.8rem;
+}
+
+.service i {
+  font-size: 1.5rem;
+  color: #7AC143;
+  margin-bottom: 5px;
+}
+
+.promo-banner {
+  background-color: #e5f0f9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #002f6c;
+}
+
+.dashboard-footer {
+  background-color: white;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  color: #002f6c;
+}

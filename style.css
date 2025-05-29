@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #11237D;
+  color: #FFFFFF; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #4DC247; /* Green */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #CCCCCC;
+}
